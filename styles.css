@@ -34,9 +34,3 @@
     overflow: hidden;
 }
 
-@media (max-width: 768px) {
-    #nav-grid-tab {
-      display: none; 
-    }
-
-}
