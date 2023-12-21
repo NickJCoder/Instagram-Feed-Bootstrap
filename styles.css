@@ -10,7 +10,7 @@
 
 .square-img-container {
     position: relative;
-    width: 100%;
+    height: 100%;
     padding-top: 100%; 
     overflow: hidden;
 }
@@ -27,3 +27,16 @@
     max-width: 900px;
 }
 
+.post-container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    #nav-grid-tab {
+      display: none; 
+    }
+
+}
